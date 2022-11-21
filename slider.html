@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beykoz Belediyesi Kültür Sanat Portalı</title>
+    <link rel="stylesheet" href="content/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+<body>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+    <div class="nested" id="main__nested">
+        <a href="menu.html" class="header__logo"><img src="content/img/logo.png" alt="" id="logo">
+        </a>
+        <section class="header">
+            <div class="header__menu">
+                <a href="calendar.html" id="cale">
+                    <img src="content/img/calendar.png" alt="" id="calen" style="padding-top: 0.1vw;">
+                </a>
+                <a href="#">
+                    <img src="content/img/login.png" alt="" id="logoBtn"
+                        style="height: 1.7vw; width: 1.5vw; margin: 0.2vw 1.3vw 0 1.3vw;">
+                </a>
+                <button id="burger" style="padding-top: 0.3vw;">
+                    <img src="content/img/burger.png" alt="">
+                </button>
+                <button id="closeBur" class="closeBur">
+                    <img src="content/img/closeBurger.png" alt="" style="width: 1.5vw; margin-top: 0.3vw;">
+                </button>
+            </div>
+        </section>
+
+        <section class="overlay" id="overlayHidden">
+            <ul class="overlay__menu">
+                <li><a href="#" class="overlay__main-links">kütüphane</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">kültür merkezleri</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">haber & duyuru</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">kurslar</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">sıkça sorulan sorular</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">üyelik işlemleri</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">geçmiş etkinlikler</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">euro temas noktası</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="main">
+            <a href="menu.html" id="backBtn"><img src="content/img/scrollBefore.png" alt="" style="width: 2vw"></a>
+            <img class="color__col_slider" src="content/img/col.png" alt="">
+            <div>
+                <div class="slider__overflow">
+                    <div class="slider">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="content/img/koliva.png" alt="">
+                                    <div class="main__text">
+                                        <p>koliva</p>
+                                        <p>18 mart-20.00 beykoz kültür merkezi</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="content/img/orches.png" alt="">
+                                    <div class="main__text">
+                                        <p>beykoz misiki derneği</p>
+                                        <p>18 mart-20.00 beykoz kültür merkezi</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="content/img/orches.png" alt="">
+                                    <div class="main__text">
+                                        <p>beykoz misiki derneği</p>
+                                        <p>18 mart-20.00 beykoz kültür merkezi</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="content/img/orches.png" alt="">
+                                    <div class="main__text">
+                                        <p>beykoz misiki derneği</p>
+                                        <p>18 mart-20.00 beykoz kültür merkezi</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- pagination -->
+                            <div class="swiper-pagination"></div>
+
+                            <!-- scrollbar -->
+                            <div class="swiper-scrollbar"></div>
+
+                            <!-- buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="foo_slider">
+                    Tüm hakları Saklıdır. 2022 - Beykoz Belediyesi
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="contnetn/swiper-slider/swiper.js"></script>
+    <script src="content/js/main.js"></script>
+
+    <script>
+        if (window.screen.width > 800) {
+            document.write('<script src="content/swiper-slider/carousel.js"><\/script>');
+        }
+    </script>
+</body>
+
+</html>

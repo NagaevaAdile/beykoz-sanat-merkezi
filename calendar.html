@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beykoz Belediyesi Kültür Sanat Portalı</title>
+    <link rel="stylesheet" href="content/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+<body>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+    <div class="nested">
+        <a href="menu.html" class="header__logo"><img src="content/img/logo.png" alt="" id="logo">
+        </a>
+        <section class="header">
+            <div class="header__menu">
+                <a class="#" id="cale">
+                    <img src="content/img/calendar.png" alt="" id="calen">
+                </a>
+                <a href="#">
+                    <img src="content/img/login.png" alt="" id="logoBtn"
+                        style="height: 1.7vw; width: 1.5vw; margin: 0.2vw 1.3vw 0 1.3vw;">
+                </a>
+                <button id="burger" style="margin-top: 0.3vw;">
+                    <img src="content/img/burger.png" alt="">
+                </button>
+                <button id="closeBur" class="closeBur">
+                    <img src="content/img/closeBurger.png" alt="" style="width: 1.5vw; margin-top: 0.3vw;">
+                </button>
+            </div>
+        </section>
+
+        <section class="overlay" id="overlayHidden">
+            <ul class="overlay__menu">
+                <li><a href="#" class="overlay__main-links">kütüphane</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">kültür merkezleri</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">haber & duyuru</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">kurslar</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">sıkça sorulan sorular</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">üyelik işlemleri</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">geçmiş etkinlikler</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">euro temas noktası</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class=" programm" id="calendar">
+            <a href="menu.html" id="backBtn"><img src="content/img/scrollBefore.png" alt="" style="width: 2vw"></a>
+            <div class="overlay__calendar">
+                <div class="month-calendar">
+                    <div id="month-calendar">
+                        <ul class="month">
+                            <li class="prev"><img src="/content/img/beforeCal.png" alt=""></li>
+                            <li class="next"> <img src="/content/img/afterCal.png" alt=""> </li>
+                            <li class="month-name"></li>
+                            <li class="year-name"></li>
+                        </ul>
+                        <ul class="weekdays">
+                            <li>pzt</li>
+                            <li>sal</li>
+                            <li>çar</li>
+                            <li>per</li>
+                            <li>cum</li>
+                            <li>ctesi</li>
+                            <li>paz</li>
+                        </ul>
+                        <ul class="days">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li>10</li>
+                            <li>11</li>
+                            <li>12</li>
+                            <li>13</li>
+                            <li>14</li>
+                            <li>15</li>
+                            <li>16</li>
+                            <li>17</li>
+                            <li>18</li>
+                            <li>19</li>
+                            <li>20</li>
+                            <li>21</li>
+                            <li>22</li>
+                            <li>23</li>
+                            <li>24</li>
+                            <li>25</li>
+                            <li>26</li>
+                            <li>27</li>
+                            <li>28</li>
+                            <li>29</li>
+                            <li>30</li>
+                            <li>31</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="more-info">
+                    <div class="info__title">
+                        <h2>Program</h2>
+                        <p id="nowDate"></p>
+                    </div>
+                    <div class="filtre">
+                        <div>
+                            <button>gelecek</button>
+                            <button style="margin-left: 1em">geçmiş</button>
+                        </div>
+
+                        <p class="fill-filtre">Filtre</p>
+                    </div>
+                    <div class="card__overlay">
+                        <div class="card">
+                            <div class="card__title">
+                                <img src="./content/img/koliva.png" alt="">
+                                <div style="padding-left: 1em">
+                                    <h1>koliva</h1>
+                                    <p>İlhan Gülten, Mehmet Erkan, Caner Parlağı, <br>
+                                        Barış Başural, Eren Başural</p>
+                                </div>
+                            </div>
+                            <div class="card__info">
+                                <p class="card__adress">Kavacık, Şht. Teğmen Ali Yılmaz Sk. No:12, <br>
+                                    34810 Beykoz/İstanbul</p>
+                                <p class="card__day" style="padding: 1em 0">18 Mart Salı</p>
+                                <p class="card__time">21.00</p>
+                                <button> <a href="reservation.html">bilet al</a></button>
+                            </div>
+                            <div style="margin-top: 1vw;">
+                                <span style="font-size: 0.6vw">Beğen, Paylaş.</span>
+                                <ul class="card-social">
+                                    <li><a href="#"><img src="content/img/cF.png" alt=""></a></li>
+                                    <li><a href="#"><img src="content/img/cT.png" alt=""></a></li>
+                                    <li><a href="#"><img src="content/img/cI.png" alt=""></a></li>
+                                    <li><a href="#"><img src="content/img/cW.png" alt=""></a></li>
+                                    <li><a href="#"><img src="content/img/cG.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__title">
+                                <img src="./content/img/koliva.png" alt="">
+                                <div style="padding-left: 1em">
+                                    <h1>koliva</h1>
+                                    <p>İlhan Gülten, Mehmet Erkan, Caner Parlağı, <br>
+                                        Barış Başural, Eren Başural</p>
+                                </div>
+                            </div>
+                            <div class="card__info">
+                                <p class="card__adress">Kavacık, Şht. Teğmen Ali Yılmaz Sk. No:12, <br>
+                                    34810 Beykoz/İstanbul</p>
+                                <p class="card__day" style="padding: 1em 0">18 Mart Salı</p>
+                                <p class="card__time">21.00</p>
+                                <button> <a href="reservation.html">bilet al</a></button>
+                            </div>
+                            <div style="margin-top: 1vw;">
+                                <span style="font-size: 0.6vw">Beğen, Paylaş.</span>
+                                <ul class="card-social">
+                                    <li><a href="#"><img src="content/img/cF.png" alt=""></a></li>
+                                    <li><a href="#"><img src="content/img/cT.png" alt=""></a></li>
+                                    <li><a href="#"><img src="content/img/cI.png" alt=""></a></li>
+                                    <li><a href="#"><img src="content/img/cW.png" alt=""></a></li>
+                                    <li><a href="#"><img src="content/img/cG.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="overlay__footer foo foo_mobile" style="bottom: 2vw; width: 87%;">
+                <p>444 6 661 Çözüm Masası Bilgi Edinme - Gümüşsuyu Mahallesi, Kelle İbrahim Caddesi no:43 Posta
+                    Kodu: 34820 Beykoz-İstanbul</p>
+                <p>Tüm hakları Saklıdır. 2022 - Beykoz Belediyesi</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="content/js/main.js"></script>
+    <script src="content/js/calendar.js"></script>
+</body>
+
+</html>

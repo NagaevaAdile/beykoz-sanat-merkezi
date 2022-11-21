@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beykoz Belediyesi Kültür Sanat Portalı</title>
+    <link rel="stylesheet" href="content/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+<body style="overflow-x: hidden;">
+
+    <div class="nested nested-orange">
+        <a href="menu.html" class="header__logo"><img src="content/img/whiteLogo.png" alt="" id="logo">
+        </a>
+        <section class="header">
+            <div class="header__menu">
+                <a href="calendar.html" id="cale">
+                    <img src="content/img/whiteCal.png" alt="" id="calen">
+                </a>
+                <a href="#">
+                    <img src="content/img/whiteLogin.png" alt="" id="logoBtn"
+                        style="height: 1.7vw; width: 1.5vw; margin: 0.2vw 1.3vw 0 1.3vw;">
+                </a>
+                <button id="burger" style="margin-top: 0.3vw;">
+                    <img src="content/img/whiteBur.png" alt="">
+                </button>
+                <button id="closeBur" class="closeBur">
+                    <img src="content/img/closeBurger.png" alt="" style="width: 1.5vw; margin-top: 0.3vw;">
+                </button>
+            </div>
+        </section>
+
+        <section class="overlay" id="overlayHidden">
+            <ul class="overlay__menu">
+                <li><a href="#" class="overlay__main-links">kütüphane</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">kültür merkezleri</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">haber & duyuru</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">kurslar</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">sıkça sorulan sorular</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">üyelik işlemleri</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">geçmiş etkinlikler</a>
+                </li>
+                <li><a href="#" class="overlay__main-links">euro temas noktası</a>
+                </li>
+            </ul>
+        </section>
+
+
+
+        <section class="payment">
+            <div class="beykoz">
+                <img src="content/img/whiteCol.png" alt="" class="white-col">
+            </div>
+            <div class="pay-wrap">
+                <div class="payment-left">
+                    <ul class="sale-title">
+                        <li>koli̇va konser</li>
+                        <li>18 mart</li>
+                        <li>20:00</li>
+                        <li>beykoz kültür merkezi̇</li>
+                    </ul>
+                    <div>
+                        <div class="sale-list payment-list">
+                            <div class="sale-column sale-1column">1</div>
+                            <div class="sale-column sale-2column">d</div>
+                            <div class="sale-column sale-3column">27</div>
+                            <div class="input-soyad">Recep Bi̇ni̇ci̇</div>
+                            <div class="price-ticket">5,00₺</div>
+                        </div>
+                        <div class="sale-list payment-list">
+                            <div class="sale-column sale-1column">1</div>
+                            <div class="sale-column sale-2column">d</div>
+                            <div class="sale-column sale-3column">27</div>
+                            <div class="input-soyad">Recep Bi̇ni̇ci̇</div>
+                            <div class="price-ticket">5,00₺</div>
+                        </div>
+                        <div class="sale-list payment-list">
+                            <div class="sale-column sale-1column">1</div>
+                            <div class="sale-column sale-2column">d</div>
+                            <div class="sale-column sale-3column">27</div>
+                            <div class="input-soyad">Recep Bi̇ni̇ci̇</div>
+                            <div class="price-ticket">5,00₺</div>
+                        </div>
+                        <div class="sale-list payment-list">
+                            <div class="sale-column sale-1column">1</div>
+                            <div class="sale-column sale-2column">d</div>
+                            <div class="sale-column sale-3column">27</div>
+                            <div class="input-soyad">Recep Bi̇ni̇ci̇</div>
+                            <div class="price-ticket">5,00₺</div>
+                        </div>
+                    </div>
+                    <div class="pay-total">
+                        <div class="pay-top">toplam</div>
+                        <div class="total-price">200,00₺</div>
+                    </div>
+                </div>
+
+                <div class="payment-right">
+                    <div class="pay-right-info">
+                        <div class="bank-card">
+                            <img src="content/img/visa.png" alt="">
+                            <p>•••• •••• •••• 3294</p>
+                            <span>Recep Binice</span>
+                        </div>
+                        <div class="bank-carf-info">
+                            <p>i̇şlemi̇ni̇zi̇ tamamlamak i̇çi̇n</p>
+                            <h2>kalan süre</h2>
+                            <span>04:47</span>
+                        </div>
+                    </div>
+                    <form action="" method="post">
+                        <div class="pay-right-input">
+                            <div class="main-info-card">
+                                <label for="soyad">
+                                    Adı Soyadı
+                                    <input type="text" id="soyad" placeholder="Recep Bi̇ni̇ci̇" required
+                                        pattern="^\S+ \S+$" title="Ad Soyad">
+                                </label>
+                                <label for="kardnumerası">
+                                    Kart Numarası
+                                    <input type="text" id="kard-num" placeholder="1234   3924   2394   3294" required
+                                        maxlength="16" minlength="16" pattern="^\d+$" title="Sadece sayılar">
+                                </label>
+                            </div>
+
+                            <div class="extra-info-card">
+                                <label for="date">
+                                    Son kullanma tari̇hi̇
+                                    <div class="date-card">
+                                        <input type="text" class="bankDate" placeholder="02" required maxlength="2"
+                                            minlength="2" pattern="^\d+$" title="Sadece sayılar">
+                                        <input type="text" class="bankDate" placeholder="25" required maxlength="2"
+                                            pattern="^\d+$" title="Sadece sayılar">
+                                    </div>
+                                </label>
+
+                                <label class="id-wrap" for="cvv">
+                                    <span>CVV</span>
+                                    <input id="cvv" type="text" placeholder="627" required maxlength="3" minlength="3"
+                                        pattern="^\d+$" title="Sadece sayılar">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="done-pay" style="margin-bottom: 1vw;">
+                            <label class="checkbox-wrap" for="checkbox">
+                                <input id="checkbox" type="checkbox" required>
+                                <span class="cheki"></span>
+                                <p> Ön bilgilendirme formunu okudum, kabul ediyorum.</p>
+                            </label>
+                        </div>
+
+                        <ul class="btn-list orange-btn-list pay-btn-list">
+                            <li><button> <a href="sale.html"> geri̇ dön</a></button></li>
+                            <li><button type="submit">ödeme yap</button></li>
+                        </ul>
+                </div>
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <div class="overlay__footer foo foo_mobile white-foo" style="bottom: 2vw; width: 87%;">
+            <p>444 6 661 Çözüm Masası Bilgi Edinme - Gümüşsuyu Mahallesi, Kelle İbrahim Caddesi no:43 Posta
+                Kodu: 34820 Beykoz-İstanbul</p>
+            <p>Tüm hakları Saklıdır. 2022 - Beykoz Belediyesi</p>
+        </div>
+    </div>
+
+    <script src="content/js/orange.js"></script>
+
+    <script>
+
+
+    </script>
+</body>
+
+</html>
